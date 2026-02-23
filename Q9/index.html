@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registration Form</h2>
+
+      <form action="" id="registration">
+
+        <label for="username">Username : </label>
+        <input type="text" id="username" name="username" autocomplete="username"  required/>
+        <span class="error" id="usernameError"></span>
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" autocomplete="email" required/>
+        <span class="error" id="emailError"></span>
+
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" autocomplete="new-password" required/>
+        <span class="error" id="passwordError"></span>
+
+        <label for="country">Country : </label>
+        <select name="country" id="country" class="select" autocomplete="country" required>
+            <option value="">Select the Country</option>
+        </select>
+
+        <label for="state">State : </label>
+        <select name="state" id="state" class="select" autocomplete="stat" required>
+            <option value="">Select the State</option>
+        </select>
+
+        <button id="register">Register</button>
+      </form>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
