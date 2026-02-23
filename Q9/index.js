@@ -10,7 +10,7 @@ const fetchCountry = async () => {
     const country = await response.json();
     return country;
   } else {
-    console.error("Api is working");
+    console.error("Api is not working");
   }
 };
 
