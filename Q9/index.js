@@ -2,7 +2,7 @@ const fetchCountry = async () => {
   const response = await fetch("https://api.countrystatecity.in/v1/countries", {
     headers: {
       "X-CSCAPI-KEY":
-        "API_KEY",
+        "c65c227da0b1d0690250bbd1cb1b4804306454bdb4babf7a7d74a1796a2d82d7",
     },
   });
 
@@ -20,7 +20,7 @@ const getStatesByCountry = async (countryCode) => {
     {
       headers: {
         "X-CSCAPI-KEY":
-          "API_KEY",
+          "c65c227da0b1d0690250bbd1cb1b4804306454bdb4babf7a7d74a1796a2d82d7",
       },
     },
   );

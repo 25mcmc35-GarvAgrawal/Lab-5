@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horizon Studio</title>
+
+ 
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <header class="page-header">
+    <h1>Horizon <span>Studio</span></h1>
+    <p>Design · Strategy · Creative Direction</p>
+  </header>
+
+  <div class="tabs-widget" id="demo-tabs">
+
+
+    <ul class="tab-list" role="tablist">
+      <li>
+        <button
+          role="tab"
+          id="btn-home"
+          data-target="#tab-home"
+          aria-controls="tab-home"
+          aria-selected="false">
+          Home
+        </button>
+      </li>
+      <li>
+        <button
+          role="tab"
+          id="btn-about"
+          data-target="#tab-about"
+          aria-controls="tab-about"
+          aria-selected="false">
+          About
+        </button>
+      </li>
+      <li>
+        <button
+          role="tab"
+          id="btn-contact"
+          data-target="#tab-contact"
+          aria-controls="tab-contact"
+          aria-selected="false">
+          Contact
+        </button>
+      </li>
+    </ul>
+
+ 
+    <div class="tab-panels">
+
+     
+      <div class="tab-panel" id="tab-home" role="tabpanel" aria-labelledby="btn-home">
+        <h2><span class="num">01</span> Welcome</h2>
+        <div class="divider"></div>
+        <p>
+          We are a creative studio crafting meaningful digital experiences for brands
+          that dare to be different. From brand identity to full-scale product design,
+          we bring ideas to life with intention and precision.
+        </p>
+        <p>
+          Our work spans industries — from tech startups and cultural institutions to
+          lifestyle brands and nonprofits. Every project begins with a deep understanding
+          of your audience and ends with something truly unforgettable.
+        </p>
+        <div class="tag-row">
+          <span class="tag filled">Branding</span>
+          <span class="tag">UI / UX</span>
+          <span class="tag">Strategy</span>
+          <span class="tag">Motion</span>
+        </div>
+      </div>
+
+    
+      <div class="tab-panel" id="tab-about" role="tabpanel" aria-labelledby="btn-about">
+        <h2><span class="num">02</span> About Us</h2>
+        <div class="divider"></div>
+        <p>
+          Founded in 2018, Horizon Studio was built on the belief that great design
+          is not just how something looks — it's how it works, how it feels, and the
+          story it tells. We are a small, focused team of designers, strategists, and
+          storytellers based in Lisbon, Portugal.
+        </p>
+        <p>
+          We believe in slow work and fast results. Every decision we make is deliberate.
+          We take on a limited number of projects each year so we can give each one the
+          full weight of our attention. Quality over volume, always.
+        </p>
+        <div class="tag-row">
+          <span class="tag filled">Est. 2018</span>
+          <span class="tag">Lisbon, PT</span>
+          <span class="tag">8 People</span>
+        </div>
+      </div>
+
+    
+      <div class="tab-panel" id="tab-contact" role="tabpanel" aria-labelledby="btn-contact">
+        <h2><span class="num">03</span> Get in Touch</h2>
+        <div class="divider"></div>
+        <p>
+          Have a project in mind? We'd love to hear about it. Whether you're a startup
+          looking to launch or an established brand ready for a refresh, we're here to help
+          you figure out the right next step.
+        </p>
+        <p>
+          Reach us at <strong>hello@horizonstudio.co</strong> or fill out the form on our
+          website. We typically respond within one business day. We're also happy to jump
+          on a quick call to see if we're a good fit before anything else.
+        </p>
+        <div class="tag-row">
+          <span class="tag filled">Let's Talk</span>
+          <span class="tag">hello@horizonstudio.co</span>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="kb-hint">
+      Keyboard: <kbd>←</kbd> <kbd>→</kbd> to navigate · <kbd>Home</kbd> <kbd>End</kbd> to jump
+    </p>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="tabs-plugin.js"></script>
+
+</body>
+</html>
